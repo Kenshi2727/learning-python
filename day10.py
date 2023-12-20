@@ -1,0 +1,8 @@
+a=input("Enter your predicted girth:")
+print("Yeah man! That was so much thick like in cms it could be around",a)
+print("Damn! Tree trunks are so powerful...")
+c=input("c=")
+b=input("Yeah baby:")
+print(b)
+print(a+c)
+print(int(a)+int(c))
