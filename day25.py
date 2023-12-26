@@ -1,0 +1,11 @@
+# tuple manipulation
+countries = ("Bangladesh","India","Pakistan","Nepal","Bhutan","Sri Lanka","Maldives")
+temp=list(countries)
+print(temp.pop(0))
+print(temp.pop(1))
+print(temp.pop(2))
+countries = tuple(temp)
+print(countries)
+tup1=(1,2,3,53,5,53,3,7,9,3,3,64,4,2,3,4,5,6,7,8,9,10)
+print(tup1.count(3))
+print(tup1.index(3,1,5))
